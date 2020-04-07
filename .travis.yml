@@ -6,7 +6,7 @@ before_script:
   - cd ./nodejs
 
 script:  
-  - npm install
+  - npm install --ignore scripts
   - npm run postinstall
 
 after_script:  
